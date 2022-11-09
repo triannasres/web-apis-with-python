@@ -4,6 +4,7 @@
     margin: auto;
     text-align: -webkit-center;
     margin-top: 47px;
+    margin-bottom: 15px;
 }
 
 .search-bar > form > input{
@@ -18,6 +19,11 @@
 
 }
 
+.search-form{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .main-wrapper{
     justify-content: center;
     align-items: center;  
@@ -26,9 +32,6 @@
     text-align: center;
     margin: 2% 25% 0% 25%;
 }
-
-
-
 
 body{
     background-color: #f6f6f6;
