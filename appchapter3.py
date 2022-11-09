@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request
-# Inisialisasi aplikasi
-app = Flask ( __name__ )
 
-# Mendefinisikan apa yang dilakukan aplikasi
+app = Flask ( __name__ )
+#curl -X GET "http://127.0.0.1:5000/tstchapter3?name=David"
+
 @app.get("/tstChapter3")
 def index():
     response = {"data" : "Halo, Dunia!",
