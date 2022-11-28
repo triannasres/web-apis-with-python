@@ -14,11 +14,11 @@ def index():
     if not fname and not lname:
         return jsonify({ "status" : "error" })
     elif fname and not lname:
-        response = { "data" : f"Hello, {fname} !" }
+        response = { "data" : f"Hello, {fname}!" }
     elif not fname and lname:
-        response = { "data" : f"Hello, Mr. {lname} !" }
+        response = { "data" : f"Hello, Mr. {lname}!" }
     else :
-        response = { "data" : f"Is your name {fname} {lname} ?" }
+        response = { "data" : f"Is your name {fname} {lname}?" }
     return jsonify(response)
 
 if __name__ == "__main__" :

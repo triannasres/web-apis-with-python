@@ -16,7 +16,7 @@ if __name__ == "__main__" :
 @app.get("/lucky")
 def lucky():
     args = request.args.get( "q" )
-    return redirect(f"https://google.com/search?q={args}&btnI")
+    return redirect(f"https://www.google.com/search?q={args}&btnI=I%27m+Feeling+Lucky&source=hp&ei=TxBtY7v5GZHaz7sPuJGMqAo&iflsig=AJiK0e8AAAAAY20eX-h8AYcZd_dmzTFVVDRYGR42e5sy")
 
 if __name__ == "__main__" :
     app.run()

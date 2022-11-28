@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.get("/tstchapter4")
 def index ():
-    name = request.args.get( "name" )
+    name = request.args.get("name")
     if not name:
-        return jsonify({ "status" : "error" })
-    response = { "data" : f"Hello, {name} !" }
+        return jsonify({"status" : "error"})
+    response = {"data" : f"Hello, {name}!"}
     return jsonify(response)
